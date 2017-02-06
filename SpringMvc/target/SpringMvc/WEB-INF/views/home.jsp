@@ -28,7 +28,7 @@
                     <td>${box.color}</td>
                     <td>${box.country}</td>
                     <td>
-                        <a href="/deletebox?id=${box.id}">Delete</a>
+                        <a href="./deletebox?id=${box.id}">Delete</a>
                     </td>
                              
                 </tr>

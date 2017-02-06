@@ -40,9 +40,9 @@ public class MvcConfiguration extends WebMvcConfigurerAdapter{
         dataSource.setUrl("jdbc:mysql://localhost:3306/boxdb");
         dataSource.setUsername("root");
         dataSource.setPassword("admin");
-         
         return dataSource;
     }
+	
 	@Bean
     public BoxDao getBoxDao() {
         return new BoxDaoImpl(getDataSource());
